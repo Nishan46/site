@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+	font-family: "Poppins",sans-serif;
+}
+
+.banner{
+	padding:10px ;
+	width: auto;
+	border-radius: 5px;
+	background-color: rgb(51, 50, 50);
+	min-width: 778px;
+}
+
+.header{
+	margin-left: 25%;
+	align-items: center;
+	width:50%;
+	background-color: black;
+	height: fit-content;
+	padding: 10px;
+	color: whitesmoke;
+	text-align: left;
+	border-radius: 5px;
+	display: inline-flex;
+}
+.Title {
+	font-size:150%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	width: fit-content;
+	height: fit-content;
+	padding-right: 100px;
+	
+}
+.Devp{
+	margin-left: auto;
+	text-align: center;
+	padding-left: 10px;
+	padding-right:10px;
+	width: fit-content;
+	height: auto;
+	background-color: darkred;
+	border-radius: 5px;
+}
+
+.LEFT-form {
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-right:1% ;
+	width: 30%;
+	text-align: center;
+	float: left;
+	height: fit-content;
+	background-color: black;
+	color: whitesmoke;
+}
+
+.frmtittle{
+	text-align: left;
+	padding-left: 10px;
+	width: fit-content;
+	height: fit-content;
+	color: whitesmoke;
+	text-decoration: underline;
+	letter-spacing: 5px;
+
+
+}
+
+.frm-body{
+	width: auto;
+	background-color: aqua;
+	height: auto;
+	display: inline;
+}
+.frm-body-method-selector{
+	width: fit-content;
+	height: 10px;
+	margin-left: auto;
+	padding-bottom: 20px;
+	padding-right: 5px;
+
+	
+}
+.body-things{
+	align-items: left;
+
+}
+
+
+
+
+
+
+.RIGHT-form{
+	margin-left: 1%;
+	border-radius: 10px;
+	margin-top: 25px;
+	width: 49%;
+	text-align: center;
+	float: left;
+	height: 100px;
+	background-color: black;
+	color: whitesmoke;
+}
