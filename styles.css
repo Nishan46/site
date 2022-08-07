@@ -1,7 +1,6 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-size: 15px;
 	font-family: Poppins;
 }
 
@@ -16,13 +15,13 @@ body{
 }
 
 .banner h1{
+	font-size: 20px;
 	padding-top: 10px;
-	font-size: 25px;
 	float: left;
 }
 .banner-logo{
 	border-radius: 5px;
-	padding:0px 10px 0px 10px;
+	padding:0px 5px 0px 5px;
 	width: fit-content;
 	height: fit-content;
 	background-color: brown;
@@ -30,19 +29,20 @@ body{
 }
 .wrapper{
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 	height: 1520px;
 	padding: 10px 10px 10px 10px;
 }
 
 .wrapper h1{
-	font-size: 3.0em;
+	font-size: 2.0em;
 	color: rgb(29, 32, 36);
 	float: left;
+	padding-left: 20px;
 }
 .wrapper h3{
-	padding-top: 30px;
-	padding-right: 10px;
+	padding-top: 10px;
+	padding-right: 30px;
 	float: right;
 	color: rgb(63, 61, 61);
 	text-decoration: underline;
