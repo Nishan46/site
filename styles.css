@@ -2,7 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: Poppins;
-	min-width: 600px;
+	min-width: 750px;
 }
 
 .banner{
@@ -20,7 +20,7 @@ body{
 	padding-top: 10px;
 	float: left;
 }
-.banner-logo{
+.banner .banner-logo{
 	border-radius: 5px;
 	padding:0px 5px 0px 5px;
 	width: fit-content;
@@ -30,7 +30,7 @@ body{
 }
 .wrapper{
 	margin: 0 auto;
-	width: 80%;
+	width: 90%;
 	height: 1520px;
 	padding: 10px 10px 10px 10px;
 }
@@ -105,10 +105,12 @@ body{
 
 
 .button {
+	float:right ;
 	margin-top: 10px;
-	width: calc(100% - 30px);
+	margin-right: 20px;
+	width: 20%;
 	height: fit-content;
-	padding: 10px 30px;
+	padding: 10px 30px  20px;
 	border-radius: 8px;
 	border: 0;
 	font-size: 1.2em;
@@ -116,8 +118,11 @@ body{
 }
 
 .btn-Decrypt{
+	text-align: center;
 	background-color: rgb(20, 25, 29);
 	color: whitesmoke;
+	font-size: medium;
+
 
 }
 .wrapper-decrypts{
