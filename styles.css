@@ -16,7 +16,8 @@ body{
 }
 
 .banner h1{
-	font-weight: 150em;
+	padding-top: 10px;
+	font-size: 25px;
 	float: left;
 }
 .banner-logo{
@@ -64,23 +65,83 @@ body{
 
 .wrapper-mainfrm .frm-contains{
 	padding-left: 20px;
+
+	
+	
 }
-.wrapper-mainfrm .frm-contains input{
-	margin-bottom: 20px;
-	width: calc(100% - 30px);
-	padding: 8px;
+
+.wrapper-mainfrm .frm-contains select{
+	margin-bottom: 10px;
+	width: calc(100% - 20px);
+	padding: 10px;
 	height: fit-content;
-	font-size: 15px;
+	font-size: 12px;
 	border-radius: 5px;
+	background-color: rgb(20, 25, 29);
+	font-weight: 900;
+	color: whitesmoke;
+}
+
+.wrapper-mainfrm .frm-contains .opcls{
+	font-size: 1.1em;
+	font-weight: 400;
 }
 
 .wrapper-mainfrm .frm-contains textarea{
-	width: calc(100% - 30px);
+	margin-bottom: 10px;
+	width: calc(100% - 50px);
+	padding: 15px;
 	height: fit-content;
 	font-size: 15px;
 	border-radius: 5px;
+	background-color: rgb(20, 25, 29);
+	font-size: 1.1em;
+	font-weight: 900;
+	color: green;
+
 }
 
+
+
+.button {
+	margin-top: 10px;
+	width: calc(100% - 30px);
+	height: fit-content;
+	padding: 10px 30px;
+	border-radius: 8px;
+	border: 0;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.btn-Decrypt{
+	background-color: rgb(20, 25, 29);
+	color: whitesmoke;
+
+}
+.wrapper-decrypts{
+	margin-top: 30px;
+	float: left;
+	width: 100%;
+	padding-bottom: 30px;
+	height: fit-content;
+	background-color:rgb(41, 34, 34);
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+
+.wrapper-decrypts h3{
+	color: whitesmoke;
+	padding: 10px 30px;
+	float: none;
+
+}
+.wrapper-decrypts p{
+	color: darkgreen;
+	padding: 10px 30px;
+	float: none;
+
+}
 
 
 
