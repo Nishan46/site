@@ -17,17 +17,14 @@ body{
 }
 
 .banner h1{
-	font-size: 20px;
-	padding-top: 10px;
+	font-size: 15px;
+	padding-top: 20px;
 	float: left;
+	display: block;
 }
-.banner .banner-logo{
-	border-radius: 5px;
-	padding:0px 5px 0px 5px;
-	width: fit-content;
-	height: fit-content;
-	background-color: brown;
-	float: right;
+
+.banner-logo{
+	display: none;
 }
 .wrapper{
 	margin: 0 auto;
@@ -37,6 +34,7 @@ body{
 }
 
 .wrapper h1{
+	text-decoration: underline;
 	font-size: 2.0em;
 	color: rgb(29, 32, 36);
 	float: left;
@@ -106,16 +104,17 @@ body{
 
 
 .button {
+	text-align: center;
 	float:right ;
 	margin-top: 10px;
 	margin-right: 20px;
-	width: 20%;
+	width: 25%;
 	height: fit-content;
-	padding: 10px 30px  20px;
+	padding: 10px;
+	padding-right: 10px;
 	border-radius: 8px;
 	border: 0;
-	font-size: 1.2em;
-	font-weight: 900;
+	font-weight: 500;
 	border: 1px solid gray;
 }
 
@@ -142,7 +141,8 @@ body{
 	height: fit-content;
 	background-color:rgb(41, 34, 34);
 	border-radius: 10px;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
+
 }
 
 .wrapper-decrypts h3{
@@ -155,7 +155,6 @@ body{
 	color: darkgreen;
 	padding: 10px 30px;
 	float: none;
-
 }
 
 .footer{
@@ -163,36 +162,272 @@ body{
 	width: 100%;
 	background-color:rgb(41, 34, 34);
 	height: fit-content;
-	position:absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	position:fixed;
+	
 }
 
 .footer .logo .footer-logo{
 	text-align: center;
-	margin: 30px;
+	margin: 5px;
 	color: whitesmoke;
 	border-radius: 5px;
-	padding:0px 5px 0px 5px;
+	padding:0px 2px 0px 2px;
 	width: fit-content;
 	height: fit-content;
 	background-color: brown;
-	padding: 10px;
+	padding: 2px;
 	float: left;
 }
 
 .footer .logo .footer-logo-right{
 	text-align: center;
-	margin: 30px;
+	margin: 5px;
 	color: whitesmoke;
 	border-radius: 5px;
-	padding:0px 5px 0px 5px;
+	padding:0px 2px 0px 2px;
 	width: fit-content;
 	height: fit-content;
 	background-color: brown;
-	padding: 10px;
+	padding: 2px;
 	float: right;
+}
+
+@media only screen and (min-width:390px){
+	.wrapper-decrypts h3{
+		color: whitesmoke;
+		padding: 10px 30px;
+		float: none;
+	
+	}
+	.banner .banner-logo{
+		border-radius: 5px;
+		padding:0px 2px 0px 2px;
+		width: fit-content;
+		height: fit-content;
+		background-color: brown;
+		float: right;
+		display: block;
+	}
+	.wrapper h1{
+		text-decoration: underline;
+		font-size: 2.0em;
+		color: rgb(29, 32, 36);
+		float: left;
+		padding-left: 20px;
+	}
+
+	.banner h1{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:1000px){
+	.banner .banner-logo{
+		border-radius: 5px;
+		padding:0px 8px 0px 8px;
+		width: fit-content;
+		height: fit-content;
+		background-color: brown;
+		float: right;
+		display: block;
+	}
+
+	.banner h1{
+		font-size: 20px;
+		text-align: center;
+	}
+	.wrapper-mainfrm h2{
+		padding: 10px 30px;
+		text-decoration: underline;
+	}
+	.wrapper{
+		margin: 0 auto;
+		width: 80%;
+		height: fit-content;
+		padding: 10px 10px 10px 10px;
+	}
+	
+	.wrapper h1{
+		text-decoration: underline;
+		padding-top: 10px;
+		color: rgb(29, 32, 36);
+		float: left;
+		padding-left: 20px;
+	}
+	.wrapper h3{
+		padding-top: 10px;
+		padding-right: 30px;
+		float: right;
+		color: rgb(63, 61, 61);
+		text-decoration: underline;
+	}
+
+
+
+
+	.wrapper-mainfrm{
+		margin: 0 auto;
+		width: 100%;
+		padding-bottom: 30px;
+		height: fit-content;
+		background-color:rgb(41, 34, 34);
+		border-radius: 10px;
+		color: whitesmoke;
+	
+	}
+	.wrapper-decrypts{
+		
+		width: 100%;
+		padding-bottom: 30px;
+		height: fit-content;
+		background-color:rgb(41, 34, 34);
+		border-radius: 10px;
+		margin-bottom: 200px;
+	
+	}
+	
+	.wrapper-mainfrm .frm-contains{
+		padding-left: 20px;
+	
+		
+		
+	}
+	
+	.wrapper-mainfrm .frm-contains select{
+		margin-bottom: 10px;
+		width: calc(100% - 20px);
+		padding: 10px;
+		height: fit-content;
+		font-size: 12px;
+		border-radius: 5px;
+		background-color: rgb(20, 25, 29);
+		font-weight: 900;
+		color: whitesmoke;
+	}
+	
+	.wrapper-mainfrm .frm-contains .opcls{
+		font-size: 1.1em;
+		font-weight: 400;
+	}
+	
+	.wrapper-mainfrm .frm-contains textarea{
+		margin-bottom: 10px;
+		width: calc(100% - 50px);
+		padding: 15px;
+		height: fit-content;
+		font-size: 15px;
+		border-radius: 5px;
+		background-color: rgb(20, 25, 29);
+		font-size: 1.1em;
+		font-weight: 900;
+		color: green;
+	
+	}
+	
+	
+	
+	.button {
+		text-align: center;
+		float:right ;
+		margin-top: 10px;
+		margin-right: 20px;
+		width: 25%;
+		height: fit-content;
+		padding: 10px;
+		padding-right: 10px;
+		border-radius: 8px;
+		border: 0;
+		font-weight: 500;
+		border: 1px solid gray;
+	}
+	
+	.btn-Decrypt{
+		text-align: center;
+		background-color: rgb(20, 25, 29);
+		color: whitesmoke;
+		font-size: medium;
+	
+	
+	}
+	
+	.btn-Decrypt:hover{
+		background-color: darkslategray;
+	}
+	.btn-Decrypt:active{
+		background-color: rgb(31, 29, 29);
+	}
+	
+	.wrapper-decrypts h3{
+		color: whitesmoke;
+		padding: 10px 30px;
+		float: none;
+	
+	}
+	.wrapper-decrypts p{
+		color: darkgreen;
+		padding: 10px 30px;
+	}
+
+	.footer{
+		align-items: center;
+		width: 100%;
+		background-color:rgb(19, 19, 26);
+		height: fit-content;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position:fixed;
+		
+	}
+	
+	.footer .logo .footer-logo{
+		text-align: center;
+		margin: 25px;
+		color: whitesmoke;
+		border-radius: 5px;
+		width: fit-content;
+		height: fit-content;
+		background-color: brown;
+		padding: 10px;
+		float: left;
+	}
+	
+	.footer .logo .footer-logo-right{
+		text-align: center;
+		margin: 25px;
+		color: whitesmoke;
+		border-radius: 5px;
+		width: fit-content;
+		height: fit-content;
+		background-color: brown;
+		padding: 10px;
+		float: right;
+	}
+	.wrapper h1{
+		text-decoration: underline;
+		font-size: 2.0em;
+		color: rgb(41, 34, 34);
+		float: left;
+		padding-left: 20px;
+	}
+	.wrapper h3{
+		padding-top: 10px;
+		padding-right: 30px;
+		float: right;
+		color: rgb(63, 61, 61);
+		text-decoration: underline;
+	}
+
+	.wrapper-decrypts h3{
+		color: whitesmoke;
+		padding: 10px 30px;
+		float: none;
+	
+	}
+
 }
 
 
